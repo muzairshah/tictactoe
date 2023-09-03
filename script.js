@@ -4,8 +4,8 @@ let btn = document.getElementById("btn-toggle")
 let result = document.getElementById("result")
 let clear = document.getElementById("clear")
 const startCells = ["", "", "", "", "", "", "", "", ""]
-let img = ` <img style="display: inline; " class="o" src="image2/o.png" alt="" srcset="">`
-let img2 = `<img style="display: inline; " class="x" src="image2/x.png" alt="" srcset="">`
+let img = ` <img style="display: inline; " class="o" src="o.png" alt="" srcset="">`
+let img2 = `<img style="display: inline; " class="x" src="x.png" alt="" srcset="">`
 
 function createBoard() {
   startCells.forEach((cell, index) => {
